@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.couchbase.lite.phonegap" version="1.4.0">
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.couchbase.lite.phonegap" version="1.3.5">
   <name>Couchbase Lite</name>
   <description>Install Couchbase Lite in your app to enable JSON sync.</description>
   <license>Apache 2.0</license>
@@ -31,8 +31,6 @@
     <source-file framework="true" src="lib/ios/libCBLJSViewCompiler.a"/>
     <source-file framework="true" src="lib/ios/CouchbaseLite.framework/CouchbaseLite.a"/>
     <source-file framework="true" src="lib/ios/CouchbaseLiteListener.framework/CouchbaseLiteListener.a"/>
-    <header-file src="lib/ios/CouchbaseLiteListener.framework/Headers/CBLListener.h"/>
-    <header-file src="lib/ios/CouchbaseLiteListener.framework/Headers/CouchbaseLiteListener.h"/>
     <header-file src="lib/ios/CouchbaseLite.framework/Headers/CBLAttachment.h"/>
     <header-file src="lib/ios/CouchbaseLite.framework/Headers/CBLAuthenticator+OpenID.h"/>
     <header-file src="lib/ios/CouchbaseLite.framework/Headers/CBLAuthenticator.h"/>
@@ -55,6 +53,8 @@
     <header-file src="lib/ios/CouchbaseLite.framework/Headers/CBLUITableSource.h"/>
     <header-file src="lib/ios/CouchbaseLite.framework/Headers/CBLView.h"/>
     <header-file src="lib/ios/CouchbaseLite.framework/Headers/CouchbaseLite.h"/>
+    <header-file src="lib/ios/CouchbaseLiteListener.framework/Headers/CBLListener.h"/>
+    <header-file src="lib/ios/CouchbaseLiteListener.framework/Headers/CouchbaseLiteListener.h"/>
   </platform>
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">
