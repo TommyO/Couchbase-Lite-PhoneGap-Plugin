@@ -1,6 +1,6 @@
 {
-  "name": "Couchbase-Lite-PhoneGap-Plugin",
-  "version": "1.4.0",
+  "name": "com.couchbase.lite.phonegap",
+  "version": "1.4.0hydra",
   "description": "Install Couchbase Lite in your app to enable JSON sync.",
   "license": "Apache 2.0",
   "cordova": {
@@ -9,6 +9,6 @@
   },
   "repository" : {
     "type": "git",
-    "url": "https://github.com/TommyO/Couchbase-Lite-PhoneGap-Plugin"
+    "url": "https://github.com/TommyO/Couchbase-Lite-PhoneGap-Plugin#hydra"
   }
 }
